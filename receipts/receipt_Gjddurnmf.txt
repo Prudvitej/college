@@ -1,0 +1,11 @@
+Receipt for Hall Ticket Number: Gjddurnmf
+Name: Prud
+Total Amount: 500
+Semester Information:
+Semester: 1, Type: Supply
+Subject Names: Jfjfjfhf,fuufjffj
+Lab Names: Na
+Number of Subjects: 2
+Number of Labs: 0
+Amount: 500, Fine: 0
+

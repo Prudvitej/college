@@ -1,0 +1,11 @@
+Receipt for Hall Ticket Number: 20TR1A0592
+Name: sai
+Total Amount: 500
+Semester Information:
+Semester: 2, Type: Supply
+Subject Names: g,f,h,d
+Lab Names: na
+Number of Subjects: 0
+Number of Labs: 0
+Amount: 500, Fine: 0
+

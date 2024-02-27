@@ -1,0 +1,11 @@
+Receipt for Hall Ticket Number: JHGFDSZ
+Name: ;lkjhgfd
+Total Amount: 800
+Semester Information:
+Semester: 1, Type: Regular
+Subject Names: lkjhg,lkjhgf,lkjhgf,lkjhg
+Lab Names: na
+Number of Subjects: 4
+Number of Labs: 0
+Amount: 800, Fine: 0
+
