@@ -4,62 +4,91 @@
     <title>User Registration</title>
 </head>
 <style>
-   body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-}
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
 
-h2 {
-    text-align: center;
-    color: #333;
-}
+        h2 {
+            text-align: center;
+            color: #333;
+        }
 
-form {
-    background-color: #fff;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
+        form {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
 
-table {
-    width: 100%;
-}
+        table {
+            width: 100%;
+        }
 
-label {
-    display: block;
-    margin-bottom: 8px;
-    color: #333;
-}
+        label {
+            display: block;
+            margin-bottom: 8px;
+            color: #333;
+        }
 
-td {
-    padding: 8px;
-}
+        td {
+            padding: 8px;
+        }
 
-input {
-    width: 100%;
-    padding: 8px;
-    box-sizing: border-box;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-}
+        input {
+            width: 100%;
+            padding: 8px;
+            box-sizing: border-box;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
 
-input[type="submit"] {
-    background-color: #4caf50;
-    color: #fff;
-    cursor: pointer;
-}
+        input[type="submit"] {
+            background-color: #4caf50;
+            color: #fff;
+            cursor: pointer;
+        }
 
-input[type="submit"]:hover {
-    background-color: #45a049;
-}
-</style>
+        input[type="submit"]:hover {
+            background-color: #45a049;
+        }
+         nav {
+            text-align: center;
+            margin-bottom: 20px;
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            background-color: #fff;
+            padding: 10px 0;
+            width: 100%;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        nav img {
+            max-width: 2000px;
+            height: auto;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: blue;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+    </style>
 <body>
+    <nav>
+    <img src="logo.png" alt="" srcset="">
+</nav>
 <?php
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {

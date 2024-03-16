@@ -1,9 +1,9 @@
 <?php
 session_start();
 
-if (!isset($_SESSION["logged_in"]) || $_SESSION["logged_in"] !== true) {
-    header("Location: login.php");
-    exit();
+if (!isset($_SESSION['logged_in']) || $_SESSION['logged_in'] !== true) {
+    header("Location: staff_login.php");
+    exit;
 }
 ?>
 <!DOCTYPE html>
@@ -336,16 +336,6 @@ if (isset($_GET['search'])) {
     </script>
 
 </html>
-<!-- this is try msg -->
-
-
-
-
-
-
-
-
-
 
 
 

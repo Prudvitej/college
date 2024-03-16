@@ -1,4 +1,13 @@
 <?php
+session_start();
+
+if (!isset($_SESSION['logged_in']) || $_SESSION['logged_in'] !== true) {
+    header("Location: staff_login.php");
+    exit;
+}
+?>
+<?php
+
 $servername = "localhost";
 $db_username = "root";
 $db_password = "";
@@ -99,8 +108,37 @@ body {
         color: #e74c3c; /* Red color for delete icon */
         cursor: pointer;
     }
+     nav {
+            text-align: center;
+            margin-bottom: 20px;
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            background-color: #fff;
+            padding: 10px 0;
+            width: 100%;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        nav img {
+            max-width: 2000px;
+            height: auto;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: blue;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
 </style>
 <body>
+    <nav>
+    <img src="logo.png" alt="" srcset="">
+</nav><br><br><br><br><br><br>
 
     <h2>Admin Interface - Registrations</h2>
 

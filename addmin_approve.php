@@ -23,7 +23,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
         if ($conn->query($updateSql) === TRUE) {
             echo "Approval successful!";
-            header("Refresh: 5; URL=admin.php"); 
+            header("Refresh: 3; URL=admin.php"); 
             exit();
         } else {
             echo "Error updating record: " . $conn->error;
